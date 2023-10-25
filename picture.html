@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resizeee</title>
+    <link href="/css/pic.css" rel="stylesheet" type="text/css"/>
+</head>
+<body >
+    <div class="image"><img src="/image/image3.jpg" alt="flower" height="650px" width="960px" id="picture"></div>
+    <form id="form">
+        <div>Width (in PX)</div>
+        <input type="text" id="wpx" oninput="resize_image()"/>
+        <div>Width (in %)</div>
+        <input type="text" id="w%" oninput="resize_image()"/>
+        <div>Height (in PX)</div>
+        <input type="text" id="hpx" oninput="resize1_image()" />
+       
+        <div>Height (in %)</div>
+        <input type="text" id="h%" oninput="resize1_image()"/>
+      <div>Link</div>
+        <textarea type="text" id="Link" oninput="paste_link()"></textarea> 
+        <div>click here for new tab</div>
+        <input type="checkbox" id="checkbox" value="new tab" oninput="paste_link()"/>
+    </form>
+    <script src="js/pic.js">
+    
+    </script>
+</body>
+</html>

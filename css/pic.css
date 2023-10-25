@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(222, 191, 237);
+}
+
+form{
+    float: left;
+    margin-left: 10%;
+    margin-top: 6%;
+    padding: 5%;
+}
+img{
+    float: left;
+}
